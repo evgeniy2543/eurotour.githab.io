@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['name'])) {$name = $_POST['name'];}
     if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
-    if (isset($_POST['textarea'])) {$massage = $_POST['text'];}
+    if (isset($_POST['text'])) {$massage = $_POST['text'];}
     if (isset($_POST['formData'])) {$formData = $_POST['formData'];}
 
     $to = "IKCGermes@yandex.ru";
